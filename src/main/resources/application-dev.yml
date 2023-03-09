@@ -1,0 +1,12 @@
+server:
+  port: 8080   #  配置启动端口号
+
+
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/test?serverTimezone=GMT%2B8&useSSL=FALSE
+    username: root  #数据库用户名，root为管理员
+    password: root #该数据库用户的密码
+    # 使用druid数据源
+    type: com.alibaba.druid.pool.DruidDataSource
+
